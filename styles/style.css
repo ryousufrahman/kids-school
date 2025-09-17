@@ -120,7 +120,9 @@
     margin-left: 141px;
     margin-right: 141px;
     display: flex;
-}
+    gap: 25px;
+
+    }
 .card{
     width: 367px;
     height: 476px;
@@ -128,3 +130,4 @@
     border: skyblue solid 1px;
     padding: 50px 35px 50px 35px;
 }
+
