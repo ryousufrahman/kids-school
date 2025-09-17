@@ -114,3 +114,17 @@
     font-size: 48px;
     text-align: center;
 }
+.all-cards{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 141px;
+    margin-right: 141px;
+    display: flex;
+}
+.card{
+    width: 367px;
+    height: 476px;
+    border-radius: 20px;
+    border: skyblue solid 1px;
+    padding: 50px 35px 50px 35px;
+}
