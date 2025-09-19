@@ -146,7 +146,7 @@
 }
 .card3{
     border: purple solid 1px ;
-    background: linear-gradient(to top , white , purple );
+    background: linear-gradient(45deg, to top , purple 10% , white 90% );
 }
 .card-content h3{
     margin-top: 50px;
@@ -194,10 +194,91 @@
     justify-content: center;
     margin-bottom: 80px;
 }
+
+/*story section */
+
 .story-title{
     text-align: center;
     margin-top: 60px;
     font-weight: bold;
     font-size: 46px;
     margin-bottom: 80px;
+}
+.story-section{
+    background-image: url("../assets/bg.png");
+    background: linear-gradient(white, orange);
+    
+    
+}
+.first-card{
+    height: 630px;
+    width: 540px;
+    background-color: white;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+.first-card h3{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.first-card-content{
+    padding: 20px;
+}
+.smallcard1 , .smallcard2 {
+    height: 310px;
+    width: 290px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.small-cards-box1{
+    display: flex;
+    gap: 10px;
+}
+.small-cards-box2{
+    display: flex;
+    gap: 10px;
+}
+.all-cards{
+    display: flex;
+    gap: 20px;
+}
+
+.small-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.small-content h3{
+    font-size:15px ;
+    font-weight: bold;
+    
+    
+}
+.small-content{
+    padding: 15px;
+}
+.story-btn{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 197px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: auto;
+    border: none;
+    border-radius: 20px;
+}
+.story-button{
+    text-align: center;
+    margin-top: 60px;
+    
+}
+footer{
+    background-color: #01ACFD;
 }
