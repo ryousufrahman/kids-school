@@ -321,3 +321,39 @@ footer{
    padding-top: 100px;
    padding-bottom: 100px;
 }
+
+@media (max-width : 767px){
+ .hero-img img{
+    height: 413px;
+ }
+ .hero-content{
+    
+    flex-direction: column;
+ }
+.all-cards{
+    flex-direction: column;
+    justify-content: center;
+
+}
+.card{
+    height: 321px;
+    width: 357px;
+}
+.card h3 {
+    margin-bottom: 22px;
+    margin-top: 22px;
+}
+.card img{
+    margin-top: 10px;
+}
+
+.section1-title{
+    margin: auto;
+}
+.all-cards{
+    
+}
+
+
+
+}
